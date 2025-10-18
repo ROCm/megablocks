@@ -66,7 +66,9 @@ install_requires = [
     'stanford-stk==0.7.1',
 ]
 
-gpus = ['gfx90a','gfx940','gfx941','gfx942']
+# rocmprim on rocm7 can only be built with gfx906:xnack-;gfx908:xnack-;gfx90a:xnack-;
+# gfx90a:xnack+;gfx942;gfx950;gfx1030;gfx1100;gfx1101;gfx1102;gfx1151;gfx1200;gfx1201
+gpus = ['gfx90a', 'gfx942']
 extra_args = ["--offload-arch=" + g for g in gpus]
 
 maj_ver, min_ver, *_ = torch.__version__.split('.')

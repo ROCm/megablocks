@@ -1,4 +1,4 @@
-FROM rocm/pytorch:rocm6.3_ubuntu24.04_py3.12_pytorch_release_2.4.0
+FROM rocm/pytorch:rocm7.0_ubuntu24.04_py3.12_pytorch_release_2.7.1
 WORKDIR /root/
 
 # Install the application dependencies
@@ -12,7 +12,7 @@ RUN git clone --recurse-submodules -j8 https://github.com/ROCm/megablocks && \
     python setup.py install
 
 RUN cd megablocks/third_party/Stanford-Megatron-LM && \
-    git checkout rocm_6_3_patch && \
+    git checkout users/peizhang56/rocm7-fix && \
     ./apply_patch.sh
 
 CMD ["/bin/bash"]
