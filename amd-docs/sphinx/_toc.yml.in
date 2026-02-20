@@ -1,0 +1,27 @@
+defaults:
+  numbered: False
+  maxdepth: 6
+root: index
+subtrees:
+- entries:
+  - file: what-is-megablocks.rst
+    title: What is Megablocks?
+
+- caption: Install
+  entries:
+  - file: install/megablocks-install.rst
+    title: Install Megablocks
+
+- caption: Reference
+  entries:
+  - url: https://epfllm.github.io/Megatron-LLM/#api
+    title: API reference (upstream)
+
+- caption: About
+  entries:
+  - url: https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html
+    title: ROCm Stanford Megatron-LM and Megablocks blog
+  - url: https://rocm.docs.amd.com/en/latest/contribute/contributing.html
+    title: Contribute to Megablocks
+  - file: about/license.rst
+    title: License
