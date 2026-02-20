@@ -23,11 +23,11 @@ The Megablocks public repository is located at `https://github.com/ROCm/megabloc
 .. grid:: 2
   :gutter: 3
 
-   .. grid-item-card:: Install
+  .. grid-item-card:: Install
 
-      * :doc:`Install Megablocks <install/megablocks-install>`
+    * :doc:`Install Megablocks <install/megablocks-install>`
 
-   .. grid-item-card:: Reference
+  .. grid-item-card:: Reference
 
       * `API reference (upstream) <https://epfllm.github.io/Megatron-LLM/#api>`__
 
