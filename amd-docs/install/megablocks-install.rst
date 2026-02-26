@@ -68,14 +68,14 @@ A Dockerfile is provided in the `https://github.com/ROCm/megablocks <https://git
       
       git clone https://github.com/ROCm/megablocks.git
 
-2. Enter the directory and build the docker file
+2. Enter the directory and build the Docker file
 
    .. code-block:: bash
       
       cd megablocks
       docker build -t rocm/megablocks:megablocks-0.7.0_rocm6.3.0_ubuntu24.04_py3.12_pytorch2.4.0
 
-3. Run the docker container
+3. Run the Docker container
 
    .. code-block:: bash
       
@@ -160,5 +160,6 @@ To run unit tests manually and validate your installation fully, follow these st
 Run a Megablocks example
 ======================================================================================
 
-Recommended example: ``pretraining_gpt.sh``.
-For detailed steps, refer to the `Efficient MoE training on AMD ROCm: How-to use Megablocks on AMD GPUs blog <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`_.
+Use the example script ``pretrain_gpt.py`` from the upstream repository at `https://github.com/NVIDIA/Megatron-LM/blob/main/pretrain_gpt.py <https://github.com/NVIDIA/Megatron-LM/blob/main/pretrain_gpt.py>`__.
+
+For detailed steps, refer to the `Efficient MoE training on AMD ROCm: How-to use Megablocks on AMD GPUs <https://rocm.blogs.amd.com/artificial-intelligence/megablocks/README.html>`__ blog post.
