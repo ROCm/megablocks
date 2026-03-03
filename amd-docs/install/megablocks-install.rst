@@ -13,7 +13,7 @@ System requirements
 
 To use Megablocks `0.7.0 <https://github.com/databricks/megablocks/releases/tag/v0.7.0>`__, you need the following prerequisites:
 
-- **ROCm version:** `6.3.0 <https://repo.radeon.com/rocm/apt/6.3/>`__
+- **ROCm version:** `6.3.0 <https://rocm.docs.amd.com/en/docs-6.3.0/>`__
 - **Operating system:** Ubuntu 24.04
 - **GPU platform:** AMD Instinct™ MI300X
 - **PyTorch:** `2.4.0 <https://github.com/ROCm/pytorch/tree/release/2.4>`__
